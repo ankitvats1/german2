@@ -1,0 +1,152 @@
+.text-center {
+  text-align: center !important;
+}
+
+.mission-section {
+  padding-top: 60px;
+  padding-bottom: 275px;
+  background: url(../images/mission-banner.jpg);
+  background-size: cover;
+}
+.mission-heading h2 {
+  color: white;
+  font-size: 54px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.mission-heading p {
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.map-section-wrapper {
+  position: absolute;
+  top: 220px;
+  width: 100%;
+  z-index: 2;
+}
+
+.map-section {
+  background: white;
+  padding: 40px 25px;
+}
+
+.benefit-section-wrapper {
+  background: url(../images/benefits-banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 220px;
+  position: relative;
+}
+
+.benefit-heading h2 {
+  font-size: 60px;
+  font-weight: 600;
+}
+
+.benefit-heading p {
+  font-size: 18px;
+  padding-top: 10px;
+  line-height: 32px;
+  color: #212520;
+}
+
+.icon-section h5 {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.news-section {
+    position: absolute;
+    bottom: -190px;
+    width: 100%;
+    z-index: 2;
+}
+
+.news-section .fixed-column {
+    min-height: 185px;
+    margin-bottom: 20px;
+}
+
+.publication {
+  padding: 60px 60px 15px;
+  background: url(../images/publication-background.jpg);
+  min-height: 371px;
+  background-size: cover;
+}
+
+.publication a.button {
+    background: #268f42;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.newsletter {
+  padding: 60px 60px 15px;
+  background: url(../images/subscribe-background.jpg);
+  min-height: 371px;
+}
+
+.news-heading h3 {
+    font-size: 34px;
+    font-weight: 700;
+    color: #ffeb28;
+    letter-spacing: 0px;
+    line-height: 44px;
+}
+
+.news-heading p {
+    font-size: 18px;
+    color: white;
+}
+
+.project-section {
+    background: url(../images/project-banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.input-group {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    width: 100%;
+    justify-content: center;
+}
+.input-group input {
+    position: relative;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    width: 1%;
+    margin-bottom: 0;
+    height: 54px;
+    border-width: 2px 0 2px 2px!important;
+    border-color: white;
+    background-color: white;
+    color: #333;
+    font-size: 16px;
+}
+
+.input-group-append {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: -1;
+    height: 54px;
+}
+.input-group-append button{
+    margin-bottom: 0;
+    font-size: 18px;
+    color: #1d8038;
+    background: #ffeb28;
+}
