@@ -1030,11 +1030,11 @@ jQuery(document).ready(function() {
 			if (jQuery('body').hasClass('header-rtl')) {
 				cHeaderEl.animate({
 					'right': -1
-				}, 500);
+				}, 0);
 			} else {
 				cHeaderEl.animate({
 					'left': -1
-				}, 500);
+				}, 0);
 			}
 			cHeaderEl.find('.creative-wrapper').fadeIn(500);
 			cHeaderEl.find('.creative-menu-toggle, .creative-social').fadeOut(500);
