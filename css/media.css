@@ -13,6 +13,10 @@
         background-position: 0 -590px;
     }
 
+    #logo-secondary img{
+        display: inline-block;
+    }
+
 }
 
 @media only screen and (min-width: 768px) {
