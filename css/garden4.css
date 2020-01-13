@@ -1119,7 +1119,7 @@ input[type="date"], input[type="email"], input[type="number"], input[type="passw
 		max-height: 40px !important
 	}
 	#Header_creative #logo img.logo-main {
-		display: none
+		display: inline-block;
 	}
 	#Header_creative #logo img.logo-sticky {
 		display: inline-block
