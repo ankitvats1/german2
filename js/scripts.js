@@ -2568,5 +2568,11 @@ jQuery(window).load(function(){
 	 * TwentyTwenty [ before_after ]
 	 * --------------------------------------------------------------------------- */
 	jQuery('.before_after.twentytwenty-container').twentytwenty();
+
+	// ie
+
+	if (window.document.documentMode) {
+		$('.fixed-content').addClass('ie11');
+	  }
 	
 });

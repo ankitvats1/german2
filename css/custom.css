@@ -60,15 +60,15 @@
 }
 
 .news-section {
-    position: absolute;
-    bottom: -190px;
-    width: 100%;
-    z-index: 2;
+  position: absolute;
+  bottom: -190px;
+  width: 100%;
+  z-index: 2;
 }
 
 .news-section .fixed-column {
-    min-height: 185px;
-    margin-bottom: 20px;
+  min-height: 185px;
+  margin-bottom: 20px;
 }
 
 .publication {
@@ -79,9 +79,9 @@
 }
 
 .publication a.button {
-    background: #268f42;
-    font-size: 18px;
-    font-weight: 600;
+  background: #268f42;
+  font-size: 18px;
+  font-weight: 600;
 }
 
 .newsletter {
@@ -91,93 +91,92 @@
 }
 
 .news-heading h3 {
-    font-size: 34px;
-    font-weight: 700;
-    color: #ffeb28;
-    letter-spacing: 0px;
-    line-height: 44px;
+  font-size: 34px;
+  font-weight: 700;
+  color: #ffeb28;
+  letter-spacing: 0px;
+  line-height: 44px;
 }
 
 .news-heading p {
-    font-size: 18px;
-    color: white;
+  font-size: 18px;
+  color: white;
 }
 
 .project-section {
-    background: url(../images/project-banner.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+  background: url(../images/project-banner.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .input-group {
-    position: relative;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    -webkit-box-align: stretch;
-    -ms-flex-align: stretch;
-    align-items: stretch;
-    width: 100%;
-    justify-content: center;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  width: 100%;
+  justify-content: center;
 }
 .input-group input {
-    position: relative;
-    -webkit-box-flex: 1;
-    -ms-flex: 1 1 auto;
-    flex: 1 1 auto;
-    width: 1%;
-    margin-bottom: 0;
-    height: 54px;
-    border-width: 2px 0 2px 2px!important;
-    border-color: white;
-    background-color: white;
-    color: #333;
-    font-size: 16px;
+  position: relative;
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  width: 1%;
+  margin-bottom: 0;
+  height: 54px;
+  border-width: 2px 0 2px 2px !important;
+  border-color: white;
+  background-color: white;
+  color: #333;
+  font-size: 16px;
 }
 
 .input-group-append {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    margin-left: -1;
-    height: 54px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: -1;
+  height: 54px;
 }
-.input-group-append button{
-    margin-bottom: 0;
-    font-size: 18px;
-    color: #1d8038;
-    background: #ffeb28;
+.input-group-append button {
+  margin-bottom: 0;
+  font-size: 18px;
+  color: #1d8038;
+  background: #ffeb28;
 }
 
-#logo-secondary img{
-    margin-top: -50px;
-    display: none;
+#logo-secondary img {
+  margin-top: -50px;
+  display: none;
 }
 
 .fixed-content {
-    position: absolute;
-    top: 50px;
-    right:10%;
-    z-index: 99;
+  position: absolute;
+  top: 50px;
+  right: 10%;
+  z-index: 99;
 }
 
 .fixed-content li {
-    display: inline-block;
+  display: inline-block;
 }
 
 .fixed-content li:first-child {
-  padding-right: 30px;
+  padding-right: 15px;
 }
 
-.fixed-content li a{
-   color: white;
-   text-decoration: none;
-   padding: 0 20px;
-   font-weight: 600;
+.fixed-content li a {
+  color: white;
+  text-decoration: none;
+  padding: 0 20px;
+  font-weight: 600;
 }
-
 
 .select-box {
   position: relative;
@@ -185,36 +184,34 @@
   width: 100%;
   margin: 0 auto;
   font-size: 18px;
-  font-family: 'Titillium Web', sans-serif;
+  font-family: "Titillium Web", sans-serif;
   color: white;
   font-weight: bold;
-  /* color: #60666d; */
 }
 
 .select-box__current {
   position: relative;
-  /* box-shadow: 0 15px 30px -10px rgba(0, 0, 0, 0.1); */
   cursor: pointer;
   outline: none;
 }
 .select-box__current:focus + .select-box__list {
   opacity: 1;
   -webkit-animation-name: none;
-          animation-name: none;
+  animation-name: none;
 }
 .select-box__current:focus + .select-box__list .select-box__option {
   cursor: pointer;
 }
 .select-box__current:focus .select-box__icon {
   -webkit-transform: translateY(-50%) rotate(180deg);
-          transform: translateY(-50%) rotate(180deg);
+  transform: translateY(-50%) rotate(180deg);
 }
 .select-box__icon {
   position: absolute;
   top: 55%;
   right: -6px;
   -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  transform: translateY(-50%);
   width: auto;
   opacity: 1;
   transition: 0.2s ease;
@@ -233,7 +230,6 @@
   width: 100%;
   margin: 0;
   padding: 5px;
-  /* background-color: #fff; */
 }
 .select-box__list {
   position: absolute;
@@ -242,48 +238,73 @@
   list-style: none;
   opacity: 0;
   -webkit-animation-name: HideList;
-          animation-name: HideList;
+  animation-name: HideList;
   -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
+  animation-duration: 0.5s;
   -webkit-animation-delay: 0.5s;
-          animation-delay: 0.5s;
+  animation-delay: 0.5s;
   -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
   -webkit-animation-timing-function: step-start;
-          animation-timing-function: step-start;
-  /* box-shadow: 0 15px 30px -10px rgba(0, 0, 0, 0.1); */
+  animation-timing-function: step-start;
 }
 .select-box__option {
   display: inline-block;
   padding: 5px;
   font-size: 18px;
-  font-family: 'Titillium Web', sans-serif;
-  /* background-color: #fff; */
+  font-family: "Titillium Web", sans-serif;
 }
-.select-box__option:hover, .select-box__option:focus {
-  /* color: #546c84; */
+.select-box__option:hover,
+.select-box__option:focus {
   color: #60666d;
-  /* background-color: #fbfbfb; */
 }
+
+.fixed-content li select {
+  margin-bottom: 0;
+    width: auto;
+    padding: 0;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 5px;
+    /* -webkit-appearance: menulist-button; */
+}
+
+.fixed-content li select option {
+  background: #bcba62;
+  padding: 5px;
+}
+
 
 @-webkit-keyframes HideList {
   from {
     -webkit-transform: scaleY(1);
-            transform: scaleY(1);
+    transform: scaleY(1);
   }
   to {
     -webkit-transform: scaleY(0);
-            transform: scaleY(0);
+    transform: scaleY(0);
   }
 }
 
 @keyframes HideList {
   from {
     -webkit-transform: scaleY(1);
-            transform: scaleY(1);
+    transform: scaleY(1);
   }
   to {
     -webkit-transform: scaleY(0);
-            transform: scaleY(0);
+    transform: scaleY(0);
   }
+}
+
+
+.ie11 .select-box {
+  top: 13px;
+}
+
+.fixed-content.ie11 li select {
+  top: 6px;
+  position: relative;
 }
