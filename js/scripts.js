@@ -58,10 +58,12 @@ jQuery(window).bind("debouncedresize", function() {
 });
 
 /* ---------------------------------------------------------------------------
- * Wow
+ * Wow & AOS
  * --------------------------------------------------------------------------- */
 
-new WOW().init();
+// new WOW().init();
+
+// AOS.init();
 
 
 /* ---------------------------------------------------------------------------
@@ -2574,5 +2576,21 @@ jQuery(window).load(function(){
 	if (window.document.documentMode) {
 		$('.fixed-content').addClass('ie11');
 	  }
+
+	  $('.has-animation').each(function(index) {
+		$(this).delay($(this).data('delay')).queue(function(){
+		  $(this).addClass('animate-in');
+		});
+	  });
+
+	  AOS.init({
+		once: !0,
+		duration: 1e3
+	})
+	  
 	
 });
+
+
+
+  
