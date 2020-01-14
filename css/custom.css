@@ -382,3 +382,8 @@
     opacity: 1;
   }
 }
+
+.tp-caption.rev-btn:hover {
+  background: white!important;
+  color: #c92031!important;
+}
